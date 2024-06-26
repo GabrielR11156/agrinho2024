@@ -4,7 +4,7 @@
 }
 /* setup das variaveis*/
 :root {
-	--verde-fundo: #deece7;
+	--verde-fundo: (#000000);
 	--branco-principal: #ffffff;
 	--fonte-principal: "Lustria";
 	--verde-principal: #5fb13b;
@@ -15,7 +15,7 @@
 }
 /* configurações do corpo como fontes e cores*/
 body {
-	background-color: var(--verde-fundo);
+	background-color: #f5f5dc;
 	color: var(--branco-principal);
 	font-family: var(--fonte-principal);
 	font-size: 20px;
