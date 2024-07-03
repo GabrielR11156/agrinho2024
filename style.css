@@ -109,11 +109,20 @@ a.cabecalho__botao {
 	font-size: 48px;
 	margin-left: 40px;
 }
+.secao2__img__titulo_2 {
+	color: var(--preto-titulo);
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	text-decoration: underline greenyellow;
+}
 .secao2__img__subtitulo {
 	margin-top: 35px;
 	color: var(--preto-titulo);
 	font-size: 25px;
 }
+
+
 .secao1__descricao,
 .secao2__img__subtitulo {
 	padding: 2em;
@@ -124,12 +133,37 @@ a.cabecalho__botao {
 	justify-content: space-between;
 	padding: 2em;
 }
+.secao2__imagens-2 {
+	display: block;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 2em;
+}
+.img_secao2{
+  width: 20%;
+  border-radius: 15px;
+}
+
+.div_secao2{
+  display: flex;
+  margin-bottom: 2%;
+ 
+}
+
+.p_secao2{
+	color: black;
+	margin-left: 2%;
+	width: 80%;
+	margin-top: 5%;
+	color: var(--preto-titulo);
+	font-size: 30px;
+	
+}
+
 .secao2__imagens  img {
 	width: 95%;
 }
-.secao2__titulo {
-	margin: 50px  0px  30px  0px;
-}
+
 .secao2__subtitulo  h2 {
 	margin-top: 35px;
 	color: var(--preto-titulo);
@@ -253,6 +287,7 @@ a.cabecalho__botao {
 		font-size: 38px;
 		text-align: center;
 	}
+
 	.secao2__subtitulo  h2 {
 		font-size: 20px;
 		text-align: center;
